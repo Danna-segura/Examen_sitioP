@@ -1,0 +1,209 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <!--     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    -->   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=star" />
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">    
+        
+      <link rel="icon" type="image/png" href="iconos/logo.png">        
+      <title>DALA</title>
+    </head>
+    <body>
+
+    <header class="navbar navbar-expand-lg py-0 navbar-dark fixed-top">
+      <meta name = "author" content="Danna Segura">
+        <meta name = "copyright" content="Danna">
+        <meta name = "description" content="Mi portafolio profesional">
+        <meta name = "keywords" content="AccessWork, Estructura de Datos, Pagina Web, Galería Personal, Software">
+         <nav class="container">
+            <a class="navbar-brand" href="#">
+                <img src="iconos/logo.png" alt="Logo" class="d-inline-block align-text-middle logotipo">
+                DALA
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                   <span class="material-symbols-outlined">
+                    star
+                    </span>
+                    <a class="nav-link" href="#sobremi">Sobre mí</a>
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <span class="material-symbols-outlined">
+                      star
+                      </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="sobremi" class="container py-5 my-5">
+        <div class="row align-items-center">
+            <figure class="col-lg-6 col-md-10 mx-auto mb-4 mb-lg-0">
+                <img src="imagenes/Mifoto.jpeg" alt="yo" class="img-fluid border-start border-end border2" id="foto">
+            </figure>
+            <ar class="col-lg-6 col-md-10 mx-auto text-center text-lg-end">
+        <audio src="medios/audio/cancionC.mp3" controls></audio>
+                <h1 class="display-4 fw-bold text-lg-start fst-italic">Sobre mí &#9829</h1>
+                <div class="mb-3 mx-auto mx-lg-0" style="width: 110px; height: 6px; background-color: #162e5b; border-radius: 40% 60%;"></div>
+                <p id="parrafo" class="collapse d-lg-block">
+                  Bienvenidos a la sección "Sobre mí", soy Danna Segura estudiante de Desarrollo de Software que le gusta la música, los animales, enseñar gimnasia y crear cosas que reflejen mi personalidad. Disfruto aprender cosas nuevas, diseñar proyectos y encontrar soluciones usando mi creatividad, también me considero una persona curiosa y con muchas ideas que busca seguir creciendo, descubrir nuevas oportunidades y convertir sus ideas en algo real.
+                </p>
+                <a class="btn btn-primary d-lg-none" data-bs-toggle="collapse" href="#parrafo" role="button" aria-expanded="false" aria-controls="parrafo">
+                    Link with href
+                </a>
+                </article>
+        </div>
+    </section>
+
+        <section id="experiencia" class="text-center py-5">
+            <article class="container">
+                <h1 class="display-4 fw-bold text-lg-start fst-italic">Experiencia &#128188</h1>
+                <div class="mb-3 background-color: #162e5b; border-radius: 40% 60% 70% 30% / 50% 60% 40% 50%; transform: rotate(-1.5deg); margin-top: 4px;"></div>
+                <p class="fs-2 tex-justify">Actualmente en la carrera he aprendido sobre programación, diseño de páginas web, bases de datos y creación de aplicaciones,
+                por lo que quiero seguir desarrollando mis habilidades y adquirir más experiencia para crear proyectos que sean útiles para los demás.
+                </p>
+            </article>
+        </section>
+
+        <section id="proyectos" class="container py-5 color: #162e5b;">
+            <h1 class="display-4 fw-bold text-center fst-italic">Mis proyectos &#128161</h1>
+            <div class="row">
+                <article class="col-10 col-md-6 col-lg-3 offset-1 offset-md-0">
+                    <div class="card h-100">
+                        <img src="imagenes/GaleriaP.jpeg" class="imagen1" alt="Galería Personal">
+                        <div class="card-body" id="proyecto1">
+                            <h5 class="card-title fw-bold text-start text-lg-center">Galería Personal</h5>
+                            <p class="card-text d-none d-lg-flex text-center">En el proyecto "Galería Personal" es un modelo de aplicación móvil en donde se basa en un carrusel de fotos con una breve descripción.</p>
+                            <a href="#" class="btn btn-primary d-lg-none"  data-bs-toggle="modal" data-bs-target="#proy_rv">Ver proyecto...</a>
+                        </div>
+                    </div>
+                </article> 
+               
+                <article class="col-10 col-md-6 col-lg-3 offset-1 offset-md-0">
+                    <div class="card  h-100">
+                        <img src="imagenes/AccessWork.jpg" class="imagen1" alt="AccessWork">
+                        <div class="card-body" id="proyecto2">
+                            <h5 class="card-title fw-bold text-start text-lg-center">AccessWork</h5>
+                            <p class="card-text d-none d-lg-flex text-center">Este proyecto fue realizado como un prototipo de una aplicación para que a las personas con discapacidad motriz se les facilite encontrar áreas laborales accesibles a sus condiciones.</p>
+                            <a href="#" class="btn btn-primary d-lg-none"  data-bs-toggle="modal" data-bs-target="#proy_seg">Ver proyecto...</a>
+                        </div>
+                    </div>
+                </article> 
+                
+                <article class="col-10 col-md-6 col-lg-3 offset-1 offset-md-0">
+                    <div class="card h-100">
+                        <img src="imagenes/PaginaW.jpeg" class="imagen1" alt="Página Web">
+                        <div class="card-body" id="proyecto1">
+                            <h5 class="card-title fw-bold text-start text-lg-center">Página Web</h5>
+                            <p class="card-text d-none d-lg-flex text-center">Es un modelo de página web en donde se nos pidió seguir un modelo dado por nuestro profesor y adaptarlo a nuestros gustos.</p>
+                            <a href="#" class="btn btn-primary d-lg-none"  data-bs-toggle="modal" data-bs-target="#proy_des">Ver proyecto...</a>
+                        </div>
+                    </div>
+                </article> 
+
+                <article class="col-10 col-md-6 col-lg-3 offset-1 offset-md-0">
+                    <div class="card h-100">
+                        <img src="imagenes/ProgramaED.jpeg" class="imagen1" alt="Programacion ED">
+                        <div class="card-body" id="proyecto2">
+                            <h5 class="card-title fw-bold text-start text-lg-center">Estructura de Datos</h5>
+                            <p class="card-text d-none d-lg-flex text-center">Es un programa enfocado a la estructura de datos, se usó Netbeans como programa con lenguaje Java en este y más proyectos.</p>
+                            <a href="#" class="btn btn-primary d-lg-none"  data-bs-toggle="modal" data-bs-target="#proy_ra">Ver proyecto...</a>
+                        </div>
+                    </div>
+                </article> 
+            </div>
+        </section>
+
+        <footer class="container-fluid  text-center fw-bold">
+          <p class="py-3"> Copyright©️ 2026 Danna Fabela Segura López</p>
+        </footer>
+
+<!--         Ventana Modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="proy_rv" tabindex="-1" aria-labelledby="proy_rv" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Galería Personal</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+          En el proyecto "Galería Personal" es un modelo de aplicación móvil en donde se basa en un carrusel de fotos con una breve descripción.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Segundo Modal -->
+<div class="modal fade" id="proy_seg" tabindex="-1" aria-labelledby="proy_seg" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">AccessWork</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+          Este proyecto fue realizado como un prototipo de una aplicación para que a las personas con discapacidad motriz se les facilite encontrar áreas laborales accesibles a sus condiciones.      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Tercer Modal -->
+<div class="modal fade" id="proy_des" tabindex="-1" aria-labelledby="proy_des" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Página Web</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+          Es un modelo de página web en donde se nos pidió seguir un modelo dado por nuestro profesor y adaptarlo a nuestros gustos.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Cuarto Modal -->
+<div class="modal fade" id="proy_ra" tabindex="-1" aria-labelledby="proy_ra" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Estructura de Datos</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        Es un programa enfocado a la estructura de datos, se usó Netbeans como programa con lenguaje Java en este y más proyectos.      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--         <button type="button" class="btn btn-warning">Primary</button>
+ -->
+    <!--      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    -->
+
+    <script src = "js/bootstrap.min.js"></script>
+    </body>
+    </html>
